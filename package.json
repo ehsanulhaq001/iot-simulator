@@ -1,0 +1,29 @@
+{
+    "name": "iot-simulator",
+    "version": "1.0.0",
+    "description": "IoT simulator to publish MQTT messages to AWS IoT.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ehsanulhaq001/iot-simulator.git"
+    },
+    "keywords": [
+        "iot",
+        "aws",
+        "simulator"
+    ],
+    "author": "Ehsan Ul Haq",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ehsanulhaq001/iot-simulator/issues"
+    },
+    "bin": "bin/iot-simulator",
+    "dependencies": {
+        "aws-iot-device-sdk": "^2.2.11",
+        "esm": "^3.2.25"
+    },
+    "homepage": "https://github.com/ehsanulhaq001/iot-simulator"
+}

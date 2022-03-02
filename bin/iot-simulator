@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+require = require('esm')(module /*, options*/ );
+
+const greeter = require('../src/index.js');
+
+greeter(process.argv);
