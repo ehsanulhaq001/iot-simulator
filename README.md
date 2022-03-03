@@ -14,7 +14,7 @@ npm install -g iot-simulator
  iot-simulator --private-key=PRIVATE_KEY_PATH --client-certificate=CERTIFICATE_KEY_PATH --ca-certificate=ROOTCA_KEY_PATH --host-name=ENDPOINT 
 ```
 
-Optional arguemnts:
+Optional arguments:
 
 ```shell
 --number=2 --mpd=2 --topic=test_topic --interval-ms=500
